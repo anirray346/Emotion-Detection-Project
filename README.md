@@ -124,20 +124,39 @@ pip install tensorflow opencv-python numpy pandas matplotlib seaborn scikit-lear
 
 ## Run the Project
 
-Open the notebook:
+### Live Demo
 
-```bash
-jupyter notebook
-```
+The project is deployed using Streamlit Cloud.
 
-Run all cells in `Emotion_Detection.ipynb`.
+Access the application here:
+https://emotion-detection-project-aa.streamlit.app/
 
 ---
+
+### Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/anirray346/Emotion-Detection-Project
+```
+
+Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
 
 ## Future Improvements
 
 * Real-time webcam emotion detection
-* Streamlit deployment
 * Transfer Learning implementation
 * Mobile application integration
 

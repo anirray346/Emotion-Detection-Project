@@ -138,7 +138,8 @@ https://emotion-detection-project-aa.streamlit.app/
 Clone the repository:
 
 ```bash
-git clone https://github.com/anirray346/Emotion-Detection-Project
+git clone <https://github.com/anirray346/Emotion-Detection-Project>
+
 ```
 
 Install required libraries:

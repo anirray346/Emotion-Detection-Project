@@ -1,11 +1,6 @@
-opendatasets
-pandas
-numpy
-matplotlib
+streamlit
 tensorflow-cpu==2.15.0
 opencv-python-headless
-seaborn
-scikit-learn
-streamlit
-gdown
+numpy
 Pillow
+gdown

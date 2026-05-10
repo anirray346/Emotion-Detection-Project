@@ -1,9 +1,9 @@
-opendatasets
+streamlit
+tensorflow>=2.15.0
+opencv-python-headless
 pandas
-numpy
+numpy<2.0.0
 matplotlib
-tensorflow
-opencv-python
 seaborn
 scikit-learn
-streamlit
+opendatasets

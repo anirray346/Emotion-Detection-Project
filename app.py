@@ -45,6 +45,10 @@ st.markdown("""
 # Load the model and cascade
 @st.cache_resource
 def load_resources():
+        # Download model from Google Drive if not available
+    if not os.path.exists("emotion_model.h5"):
+        url = "https://drive.google.com/uc?id=1qp4GF5yV0kTu97OmPEkwr3AsIecTv1Et"
+        gdown.download(url, "emotion_model.h5", quiet=False)
     model = tf.keras.models.load_model('emotion_model.h5')
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     classes = ['angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised']
